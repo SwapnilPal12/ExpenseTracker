@@ -1,0 +1,156 @@
+.App {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px; /* Padding for the entire app */
+  width: 90%;
+  max-width: 800px;
+  animation: fadeIn 0.8s ease-in-out;
+  margin: auto;
+}
+
+.add-expense-form,
+.filter-expenses {
+  margin-bottom: 30px; /* Space between sections */
+  padding: 20px; /* Padding for each section */
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.add-expense-form div,
+.filter-expenses div {
+  margin-bottom: 15px; /* Space between inputs */
+}
+
+.add-expense-form label,
+.filter-expenses label {
+  display: block;
+  margin-bottom: 5px; /* Space between labels and inputs */
+  font-weight: bold;
+  color: #555;
+}
+
+.add-expense-form input,
+.filter-expenses input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.add-expense-form button,
+.actions button,
+.export-csv {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.add-expense-form button:hover,
+.actions button:hover,
+.export-csv:hover {
+  background-color: #0056b3;
+}
+
+.statistics {
+  margin-bottom: 30px; /* Space between sections */
+  padding: 20px; /* Padding for each section */
+  border-radius: 15px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.statistics h3 {
+  margin-top: 0;
+}
+
+.statistics p {
+  margin: 5px 0;
+  font-size: 1.2rem;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  animation: slideInUp 0.5s ease-in-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.expense-item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.expense-item span {
+  font-size: 1.1rem;
+}
+
+.actions button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.actions button:hover {
+  background-color: #0056b3;
+}
+
+.export-csv {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 30px; /* Space between export button and next section */
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.export-csv:hover {
+  background-color: #218838;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInDown {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideInUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
