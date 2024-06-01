@@ -16,12 +16,12 @@ const Statistics = ({ expenses }) => {
   return (
     <div className="statistics">
       <h3>Statistics</h3>
-      <p>Total Expenses: ${total.toFixed(2)}</p>
+      <p>Total Expenses: Rs.{total.toFixed(2)}</p>
       <p>Number of Expenses: {count}</p>
       <h4>Monthly Totals</h4>
       {Object.keys(monthlyExpenses).map((month) => (
         <p key={month}>
-          Month {parseInt(month) + 1}: ${monthlyExpenses[month].toFixed(2)}
+          Month {parseInt(month) + 1}: Rs.{monthlyExpenses[month].toFixed(2)}
         </p>
       ))}
     </div>

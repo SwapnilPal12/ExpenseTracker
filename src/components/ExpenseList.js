@@ -6,7 +6,7 @@ const ExpenseList = ({ expenses, onEditExpense, onDeleteExpense }) => {
       {expenses.map((expense) => (
         <li key={expense.id} className="expense-item">
           <span>{expense.title}</span>
-          <span>${expense.amount.toFixed(2)}</span>
+          <span>Rs.{expense.amount.toFixed(2)}</span>
           <span>{new Date(expense.date).toLocaleDateString()}</span>
           <div className="actions">
             <button onClick={() => onEditExpense(expense)}>Edit</button>
