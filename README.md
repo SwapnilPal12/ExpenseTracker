@@ -52,11 +52,11 @@ src/
 └── styles.css
 
 
-# AddExpense.js: Component for adding new expenses.
-# ExpenseList.js: Component for listing all expenses.
-# ExpenseItem.js: Component for displaying individual expense items.
-# Statistics.js: Component for displaying expense statistics.
-# Tour.js: Component for Shepherd.js guided tour.
+ AddExpense.js: Component for adding new expenses.
+ ExpenseList.js: Component for listing all expenses.
+ ExpenseItem.js: Component for displaying individual expense items.
+ Statistics.js: Component for displaying expense statistics.
+ Tour.js: Component for Shepherd.js guided tour.
 
 ## Technologies Used
 React.js: JavaScript library for building user interfaces.
