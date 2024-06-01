@@ -3,6 +3,8 @@
 An advanced expense tracker built with React.js, featuring user guidance using Shepherd.js.
 ## Deployed Site:
 https://fascinating-dango-8ef961.netlify.app/
+## DEMO Video:
+https://www.youtube.com/watch?v=-i-ghIXqV_8
 
 ## Table of Contents
 
