@@ -28,8 +28,7 @@ This project is an advanced expense tracker application built with React.js. It 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/advanced-expense-tracker.git
-   cd advanced-expense-tracker
+   git clone https://github.com/SwapnilPal12/ExpenseTracker.git
 
 2. Install Dependencies:
     ```bash
@@ -39,7 +38,7 @@ This project is an advanced expense tracker application built with React.js. It 
     ```bash
     npm start
 
-## Project Structure
+# Project Structure
 src/
 ├── components/
 │   ├── AddExpense.js
